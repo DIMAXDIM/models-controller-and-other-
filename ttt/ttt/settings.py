@@ -77,6 +77,7 @@ TEMPLATES = [
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),  # Путь к статическим файлам вашего проекта
     os.path.join(BASE_DIR, 'simpleapp', 'static'),  # Путь к статическим файлам вашего нового приложения
+    
 ]
 
 
